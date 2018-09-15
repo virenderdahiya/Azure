@@ -40,5 +40,4 @@ resource "azurerm_public_ip" "vmss" {
  public_ip_address_allocation = "static"
  domain_name_label            = "${random_string.fqdn.result}"
  tags                         = "${var.tags}"
->>>>>>> master
 }
